@@ -5,68 +5,80 @@
 #headerNav {
   background-color: lightgray;
   display: flex;
-  margin: 0px 25px 30px 0px;
+  justify-content: center;
+  margin: 0px 0px 30px 0px;
   padding-top: 12px;
   padding-bottom: 12px;
-  justify-content: center;
-}
-
-#logo {
-  border: 1px solid blue;
 }
 
 ul {
   list-style-type: none;
   display: flex;
-  flex-direction: row;
-  border: 1px solid blue;
   align-items: center;
   margin-left: 35px;
 }
 
 li {
-  padding-right: 115px
+  padding-right: 115px;
 }
 
 
 #heroImage {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  margin-bottom: 30px;
+  margin: 30px 0px 30px 0px;
 }
 
 #banners {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  margin: 30px;
+  margin: 30px 0px 30px 0px;
 }
 
-#featured {
-  display: flex;
-  flex-direction: row;
-  margin-left: 55%;
+.imgBanners {
+  padding: 0px 15px 0px 15px;
+}
+
+#featured { /* Need to review this */
+  display: inline-block;
+  margin: 0px 0px 30px 0px;
+  border: 3px solid blue;
 }
 
 #featuredImgBanner {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
+  float: left;
+  margin: 0px;
+  margin-right: 30px;
 }
 
 h1 {
-  font-size: 18px;
+  display: inline;
+  font-size: 36px;
+  justify-content: left;
+  margin: 0px;
 }
 
-p {
+#placeholderText {
+  overflow: scroll;
+  max-height: 268px; /* Need to review this */
+  margin: 20px 0px 20px 0px;
   font-size: 12px;
 }
 
-.submit {
-  
+p {
+  margin-top: 0px;
+  padding-right: 0px;
+}
+
+input { /* Need to add button hover behavior*/
+  line-height: 45px;
+  width: 400px;
+  margin: 0px;
+  border-radius: 10px;
 }
 
 footer {
-  
+  background-color: lightgray;
+  padding: 55px;
+  max-height: 86px;
 }
